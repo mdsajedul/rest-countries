@@ -11,7 +11,7 @@ const Country = (props) => {
             <p>Capital is : {capital}</p>
             <img height="30px" width="50px" src={flag} alt="" />
             <p>Population : {population}</p>
-            <p>Timezone: {timezones}</p>
+            {/* <p>Timezone: {timezones}</p> */}
             <p>Language :{languages[0].name}</p>
         </div>
     );

@@ -1,0 +1,31 @@
+.nab-container{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nab-container p{
+    margin-left: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul li{
+    display: inline-flex;
+    list-style: none;
+    margin-right: 20px;
+}
+#search-container{
+    align-items: flex-end;
+    justify-content: right;
+    
+}
+
+.nab-bar{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
