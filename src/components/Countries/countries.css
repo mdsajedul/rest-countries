@@ -1,6 +1,6 @@
 .container{
     display: grid;
-    grid-template-columns: 1fr 450px;
+    grid-template-columns: 1fr 400px;
 }
 
 .country-container{
@@ -8,5 +8,5 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     width: 100%;
-    background-color: cadetblue;
+
 }

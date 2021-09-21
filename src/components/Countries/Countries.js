@@ -12,17 +12,17 @@ const Countries = () => {
     },[])
     return (
         <div >
-            <h1>Hello from countries {countries.length}</h1>
             <div className="container">
 
-            
+                
                 <div className="country-container">
+                    
                     {
-                        countries.map(country=> <Country country={country}></Country>)
+                        countries.map(country=> <Country  key={country.alpha3Code} country={country} ></Country>)
                     }
                 </div>
                 <div >
-
+                    <h4>jello</h4>
                 </div>
             </div>
         </div>
