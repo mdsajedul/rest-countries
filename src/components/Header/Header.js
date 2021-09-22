@@ -2,10 +2,11 @@ import React from 'react';
 import './header.css';
 
 const Header = () => {
+    
     return (
         <div className='nab-container'>
             <div className="nab-bar">
-                <p>Navbar</p>
+                <p><b>REST Countries</b></p>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#home">All Countries</a></li>

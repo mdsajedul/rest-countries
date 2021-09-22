@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Country from '../Country/Country';
+import RightBar from '../RightBar/RightBar';
 import './countries.css';
 
 const Countries = () => {
@@ -21,8 +22,9 @@ const Countries = () => {
                         countries.map(country=> <Country  key={country.alpha3Code} country={country} ></Country>)
                     }
                 </div>
-                <div >
-                    <h4>jello</h4>
+
+                <div className='contianer-right'>
+                    <RightBar countries={countries}></RightBar>
                 </div>
             </div>
         </div>

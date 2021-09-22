@@ -23,10 +23,12 @@ li {
     background-size: 200% 100%;
     background-position: right bottom;
     transition: all .5s ease-out;
+    
   }
   
   li:hover {
     background-position: left bottom;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
   li a {
@@ -85,6 +87,8 @@ ul {
     box-sizing: border-box;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
 #search-container input:focus{
    outline: none;
@@ -107,6 +111,7 @@ ul {
     cursor: pointer;
     overflow: hidden;
     transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #search-container button:after {
     content: "";
